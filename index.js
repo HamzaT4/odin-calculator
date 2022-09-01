@@ -23,5 +23,7 @@ let operate = function(op,num1,num2){
     
 
 }
-
-console.log(operate('s',4,2));
+let btns =document.querySelectorAll(".btn");
+btns.forEach(element => {element.addEventListener("click",function(e){alert(e.target.classList);}  );
+    
+});
