@@ -68,6 +68,7 @@ function updateDisplay(e) {
     if(e == '='  ){
         secondInput= screen.textContent;
         screen.textContent=operate(operatorInput,+firstInput,+secondInput);
+        upperScreen.textContent='';
         firstNumber=true;
     }
 
